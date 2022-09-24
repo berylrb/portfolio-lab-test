@@ -1,6 +1,6 @@
 function Contact() {
   return (
-      <h1>Contact</h1>
+      <h3>I'd love to hear from you! <a href='mailto: beryl.baldwin@generalassemb.ly'>Email me</a> if you have questions, comments, or would like to work together!</h3>
   )
 }
 
