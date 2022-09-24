@@ -1,18 +1,22 @@
 import { projects } from "../data/projects";
+import findProject from "../utilities/findProject";
+import { useLocation } from "react-router-dom";
 
 function ProjectDetails () {
+  const location = useLocation()
+  const project = findProject(location.pathname)
   return (
     <>
-      <h1>{projects[0].title}</h1>
-      <p>{projects[0].description}</p>
-      <img src={projects[0].image} alt='proj 1 screenshot'/>
-      <a href={projects[0].repositoryLink}
+      <h1>{project.title}</h1>
+      <p>{project.description}</p>
+      <img src={project.image} alt='proj 1 screenshot'/>
+      <a href={project.repositoryLink}
       target='_blank'
       rel='noreferrer'
       >
       <button>GitHub</button>
       </a>
-      <a href={projects[0].deployment}
+      <a href={project.deployment}
       target='_blank'
       rel='noreferrer'
       >
