@@ -10,7 +10,7 @@ function About() {
         <div className={styles.imgText}>
           <img src={Headshot} alt='headshot' className={styles.imgClass} />
           <div className={styles.p}>
-          <h2 className={styles.h1}>About Me</h2>
+          <h2 className={styles.h1}>About Beryl</h2>
             <p>I'm Beryl, a fullstack software engineer and startup founder who loves creating animations, illustrations, and interactive digital products that help solve real world problems-- no matter how small.
               <br />
               <br />

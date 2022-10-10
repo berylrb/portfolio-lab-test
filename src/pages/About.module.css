@@ -15,7 +15,7 @@
 
 
 .imgText {
-  width: 85%;
+  width: 75%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -26,7 +26,7 @@
 .imgClass {
   display: flex;
   height: 400px;
-  margin: 35px 0 0 0;
+  margin: 50px 0 0 0;
   border: 2.5px solid #f2e9e4;
   border-radius: 10px;
 }
@@ -45,6 +45,7 @@
   margin: 0 0 0 35px;
   color: #fefae0;
   font-family: 'Bellota Text', cursive;
+  font-size: 1.1em;
 }
 
 .p > p{
