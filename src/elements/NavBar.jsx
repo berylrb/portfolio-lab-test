@@ -1,35 +1,32 @@
 import { Container, Navbar, Nav } from "react-bootstrap"
+import styles from './Nav.module.css'
 import { Link } from "react-router-dom"
 
 
 function NavBar() {
 
   return (
-    <Navbar bg='light'>
-      <Container fluid>
-        <Link to='/' className='navbar-brand'>
-          Your Name
-        </Link>
-
-        <Nav>
-          <Link to='/about' className='nav-link'>
-            About
+    <Navbar className={styles.navBody}>
+      <Container className={styles.navCon}>
+        <Nav className={styles.nav}>
+          <Link to='/about' className={styles.navLink}>
+            ABOUT
           </Link>
 
-          <Link to='/contact' className='nav-link'>
-            Contact
+          <Link to='/contact' className={styles.navLink}>
+            CONTACT
           </Link>
 
-          <Link to='/home' className='nav-link'>
-            Home
+          <Link to='/home' className={styles.navLink}>
+            HOME
           </Link>
 
-          <Link to='/projects' className='nav-link'>
-            Projects
+          <Link to='/projects' className={styles.navLink}>
+            PROJECTS
           </Link>
 
-          <Link to='/resume' className='nav-link'>
-            Resume
+          <Link to='/resume' className={styles.navLink}>
+            RESUME
           </Link>
 
         </Nav>

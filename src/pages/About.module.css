@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@400;700&family=Poiret+One&display=swap');
+
+
+.aboutDiv {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #d7aeab;
+  padding: 10px;
+  height: 95vh;
+}
+
+
+.imgText {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 25px 0 0 0;
+}
+
+.imgClass {
+  display: flex;
+  padding: 10px;
+  height: 400px;
+  margin: 35px 0 0 0;
+  background-color: #eee2dfaf;
+  border: 2.5px solid #82503c;
+}
+
+.h1 {
+  font-family: 'Bellota Text', cursive;
+  color: #54332d
+}
+
+.p {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  margin: 0 0 0 20px;
+}
+
+.p > p{
+  line-height: 1.6em;
+  text-align: center;
+}
