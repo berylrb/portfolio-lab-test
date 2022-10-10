@@ -4,6 +4,7 @@ import Email from '../assets/email.png'
 import Rocket from '../assets/rocket2.png'
 import Cv from '../assets/cv.png'
 import Ab from '../assets/card.png'
+import Wave from '../assets/wave.png'
 import { Link } from 'react-router-dom'
 
 
@@ -12,7 +13,7 @@ function Home() {
     <>
       <div className={styles.bodyDiv}>
         <div className={styles.imgText}>
-          <img className={styles.imgClass} src={Headshot} alt='headshot' />
+          <img className={styles.imgClass} src={Wave} alt='headshot' />
           <h2>Hi, I'm Beryl -- a software engineer and startup founder.</h2>
         </div>
         <div className={styles.iconDiv}>
