@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@400;700&family=Poiret+One&display=swap');
+
+
+.bodyDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #22223b;
+  height: 100vh;
+  font-family: 'Bellota Text', cursive;
+  color: #f2e9e4;
+}
+
+.navIcon {
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+.navIcon:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
