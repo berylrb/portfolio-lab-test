@@ -26,35 +26,35 @@ function About() {
           <ul className={styles.interests}>
 
             <li className={styles.emojiP}>
-              <p>👾</p>
+              <h2>👾</h2>
               <p>gamer</p>
             </li>
             <li className={styles.emojiP}>
-              <p>🐼</p>
+              <h2>🐼</h2>
               <p>animal lover</p>
             </li>
             <li className={styles.emojiP}>
-              <p>🏐</p>
+              <h2>🏐</h2>
               <p>volleyball player</p>
             </li>
             <li className={styles.emojiP}>
-              <p>🏳️‍🌈</p>
+              <h2>🏳️‍🌈</h2>
               <p>ally</p>
             </li>
             <li className={styles.emojiP}>
-              <p>🏔️</p>
+              <h2>🏔️</h2>
               <p>traveller</p>
             </li>
             <li className={styles.emojiP}>
-              <p>🎤</p>
+              <h2>🎤</h2>
               <p>musician</p>
             </li>
             <li className={styles.emojiP}>
-              <p>🎨</p>
+              <h2>🎨</h2>
               <p>artist</p>
             </li>
             <li className={styles.emojiP}>
-              <p>👩🏽‍🍳</p>
+              <h2>👩🏽‍🍳</h2>
               <p>wannabe chef</p>
             </li>
           </ul>

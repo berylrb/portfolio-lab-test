@@ -95,6 +95,10 @@
   font-size: 1.3em;
 }
 
+.emojiP > h2 {
+  font-size: 1.7em;
+}
+
 .emojiP > p {
   margin: 10px 5px;
 }
