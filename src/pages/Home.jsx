@@ -23,7 +23,7 @@ function Home() {
 
           <Link to='/contact' className={styles.navLink}>
             <img className={styles.navIcon} src={Email} alt='email icon button link' />
-            <p>EMAIL ME</p>
+            <p>CONTACT</p>
           </Link>
 
           <Link to='/projects' className={styles.navLink}>
