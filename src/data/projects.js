@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "Queue",
-    description: "A MEN stack app with API integration that helps you track your favorite shows and see what others are watching.",
+    description: "A MEN stack CRUD app with API integration that helps you track your favorite shows and see what others are watching.",
     image: "/queue.png",
     repositoryLink: "https://github.com/berylrb/favorite-shows",
     deployment: "https://beryl-queue.herokuapp.com/"
