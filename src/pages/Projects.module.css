@@ -1,0 +1,16 @@
+.bodyDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  background-color: #22223b;
+  height: 100vh;
+  font-family: 'Bellota Text', cursive;
+  color: #f2e9e4;
+}
+
+
+.cardCont {
+  flex-wrap: wrap;
+}

@@ -12,8 +12,8 @@ function Home() {
     <>
       <div className={styles.bodyDiv}>
         <div className={styles.imgText}>
-          <h2>Hi, I'm Beryl -- a software engineer and startup founder.</h2>
           <img className={styles.imgClass} src={Headshot} alt='headshot' />
+          <h2>Hi, I'm Beryl -- a software engineer and startup founder.</h2>
         </div>
         <div className={styles.iconDiv}>
           <Link to='/about' className={styles.navLink}>

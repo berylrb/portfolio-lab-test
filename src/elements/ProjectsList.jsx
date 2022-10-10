@@ -1,10 +1,10 @@
 import ProjectPreview from './ProjectPreview'
+import styles from './Plist.module.css'
 
 function ProjectsList (props) {
   return (
     <>
-      <h2>My Projects</h2>
-      <ul>
+      <ul className={styles.cardCont}>
         {props.projects.map((project, i) =>
         <ProjectPreview title={project.title} key={i} image={project.image}/>
         )}
