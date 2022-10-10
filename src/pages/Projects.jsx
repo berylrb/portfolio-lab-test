@@ -8,7 +8,7 @@ function Projects() {
     <>
       <NavBar />
       <div className={styles.bodyDiv}>
-        <h1>Projects</h1>
+        <h1 className={styles.h1}>Projects</h1>
         <div className={styles.cardCont}>
           <ProjectsList projects={projects} />
         </div>
