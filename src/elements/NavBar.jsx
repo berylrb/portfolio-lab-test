@@ -9,6 +9,9 @@ function NavBar() {
     <Navbar className={styles.navBody}>
       <Container className={styles.navCon}>
         <Nav className={styles.nav}>
+          <Link to='/home' className={styles.navLink}>
+            HOME
+          </Link>
           <Link to='/about' className={styles.navLink}>
             ABOUT
           </Link>
@@ -16,11 +19,7 @@ function NavBar() {
           <Link to='/contact' className={styles.navLink}>
             CONTACT
           </Link>
-
-          <Link to='/home' className={styles.navLink}>
-            HOME
-          </Link>
-
+          
           <Link to='/projects' className={styles.navLink}>
             PROJECTS
           </Link>

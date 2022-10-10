@@ -1,9 +1,11 @@
 import Headshot from '../assets/headshot2.jpg'
 import styles from './About.module.css'
+import NavBar from '../elements/NavBar';
 
 function About() {
   return (
     <>
+    <NavBar />
       <div className={styles.aboutDiv}>
         <div className={styles.imgText}>
           <img src={Headshot} alt='headshot' className={styles.imgClass} />

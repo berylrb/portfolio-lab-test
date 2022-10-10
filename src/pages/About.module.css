@@ -7,14 +7,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-color: #d7aeab;
+  background-color: #22223b;
   padding: 10px;
+  width: 100vw;
   height: 95vh;
 }
 
 
 .imgText {
-  width: 90%;
+  width: 85%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -24,16 +25,15 @@
 
 .imgClass {
   display: flex;
-  padding: 10px;
   height: 400px;
   margin: 35px 0 0 0;
-  background-color: #eee2dfaf;
-  border: 2.5px solid #82503c;
+  border: 2.5px solid #f2e9e4;
+  border-radius: 10px;
 }
 
 .h1 {
   font-family: 'Bellota Text', cursive;
-  color: #54332d
+  color: #f2e9e4;
 }
 
 .p {
@@ -42,7 +42,9 @@
   justify-content: flex-start;
   align-items: center;
   padding: 10px;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 35px;
+  color: #fefae0;
+  font-family: 'Bellota Text', cursive;
 }
 
 .p > p{

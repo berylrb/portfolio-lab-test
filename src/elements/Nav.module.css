@@ -6,23 +6,28 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: #b36a5e;
-  width: 100%;
+  background-color: #4a4e69;
+  width: 100vw;
   min-height: 15%;
-  padding: 5px;
+  padding: 10px;
   
 }
 
 .navCon {
-  width: 100%;
+  width: 100vw;
   min-height: 15%;
-  background-color: #b36a5e;
 }
 
 .navLink {
-  margin: 20px 10px 10px 10px;
+  margin: 20px 18px 10px 18px;
   text-decoration: none;
-  color: #eee2df;
+  color: #f2e9e4;
   font-family: 'Bellota Text', cursive;
   font-weight: 600;
 }
+
+/* #b36a5e;
+#eee2df;
+#82503c;
+#eee2dfaf;
+#d7aeab; */

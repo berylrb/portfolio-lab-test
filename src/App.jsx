@@ -14,7 +14,7 @@ import ProjectDetails from './pages/ProjectDetails';
 function App() {
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       <Routes>
         <Route path='about' element={<About />} />
         <Route path='contact' element={<Contact />} />
